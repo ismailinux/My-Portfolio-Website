@@ -21,7 +21,7 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
   const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
 
-  idleAnimation[0].name = 'idle';
+  idleAnimation[0].name = 'idle';113
   saluteAnimation[0].name = 'salute';
   clappingAnimation[0].name = 'clapping';
   victoryAnimation[0].name = 'victory';
@@ -34,7 +34,7 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   useEffect(() => {
     actions[animationName].reset().fadeIn(0.5).play();
     return () => actions[animationName].fadeOut(0.5);
-  }, [animationName]);
+  }, [animationName, actions]);
 
   return (
     <group ref={group} {...props} dispose={null}>

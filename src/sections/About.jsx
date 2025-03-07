@@ -25,8 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Opaluwa Ismail</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              Through self-teaching, freelance projects, and a coding bootcamp, I have developed skills in frontend development, creating dynamic, responsive web apps. My greatest strength lies in my research skills, enabling me to rapidly acquire at least beginner-level knowledge on any subject, even with minimal prior understanding.
               </p>
             </div>
           </div>
@@ -63,8 +62,10 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Lagos, Nigeria and open to remote work worldwide.</p>
+              <a href="#contact">
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              </a>
             </div>
           </div>
         </div>
